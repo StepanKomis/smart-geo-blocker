@@ -1,5 +1,4 @@
 build:
-	go build ./src/cmd/main.go -o ./bin/smart-geo-blocker -v
-
+	go build -o bin/main ./src/cmd/main.go
 run:
 	go run ./src/cmd/main.go
